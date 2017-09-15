@@ -60,20 +60,6 @@
     <Compile Include="SolrPolicyEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Release\SolrDemo.vshost.exe.manifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Release\HttpWebAdapters.dll" />
-    <Content Include="bin\Release\HttpWebAdapters.xml" />
-    <Content Include="bin\Release\Microsoft.Practices.ServiceLocation.dll" />
-    <Content Include="bin\Release\Microsoft.Practices.ServiceLocation.xml" />
-    <Content Include="bin\Release\SolrDemo.exe" />
-    <Content Include="bin\Release\SolrDemo.pdb" />
-    <Content Include="bin\Release\SolrDemo.vshost.exe" />
-    <Content Include="bin\Release\SolrNet.dll" />
-    <Content Include="bin\Release\SolrNet.xml" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
