@@ -2,3 +2,5 @@
 /*.vssscc
 /SolrDemo/obj
 /SolrDemo/bin
+/SolrDemo/*.user
+/SolrDemo/*.vspscc
