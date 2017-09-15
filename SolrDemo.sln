@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrDemo", "SolrDemo\SolrDemo.csproj", "{66420181-E091-4EE1-B573-CD9E05154F70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceDll", "ReferenceDll", "{D194F974-F586-4FF7-B3A4-377C26FD9EE7}"
+	ProjectSection(SolutionItems) = preProject
+		ReferenceDll\HttpWebAdapters.dll = ReferenceDll\HttpWebAdapters.dll
+		ReferenceDll\HttpWebAdapters.xml = ReferenceDll\HttpWebAdapters.xml
+		ReferenceDll\Microsoft.Practices.ServiceLocation.dll = ReferenceDll\Microsoft.Practices.ServiceLocation.dll
+		ReferenceDll\Microsoft.Practices.ServiceLocation.XML = ReferenceDll\Microsoft.Practices.ServiceLocation.XML
+		ReferenceDll\SolrNet.dll = ReferenceDll\SolrNet.dll
+		ReferenceDll\SolrNet.xml = ReferenceDll\SolrNet.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{B822D5C1-89EF-4CE6-976C-3762EE56833B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL脚本 for SolrDemo", "SQL脚本 for SolrDemo", "{1AACB9D3-A045-4E21-B7C1-B03E883DF965}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\SQL脚本 for SolrDemo\1-CREATE Policy TABLE.sql = Documents\SQL脚本 for SolrDemo\1-CREATE Policy TABLE.sql
+		Documents\SQL脚本 for SolrDemo\2-CREATE TRIGGER solr_update_policy.sql = Documents\SQL脚本 for SolrDemo\2-CREATE TRIGGER solr_update_policy.sql
+		Documents\SQL脚本 for SolrDemo\3-INSERT INTO Policy.sql = Documents\SQL脚本 for SolrDemo\3-INSERT INTO Policy.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66420181-E091-4EE1-B573-CD9E05154F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66420181-E091-4EE1-B573-CD9E05154F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66420181-E091-4EE1-B573-CD9E05154F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66420181-E091-4EE1-B573-CD9E05154F70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AACB9D3-A045-4E21-B7C1-B03E883DF965} = {B822D5C1-89EF-4CE6-976C-3762EE56833B}
+	EndGlobalSection
+EndGlobal
