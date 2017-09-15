@@ -1,0 +1,2 @@
+# SolrDemo
+Solr Demo
