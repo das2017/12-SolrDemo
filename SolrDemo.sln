@@ -22,6 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL脚本 for SolrDemo", "S
 		Documents\SQL脚本 for SolrDemo\1-CREATE Policy TABLE.sql = Documents\SQL脚本 for SolrDemo\1-CREATE Policy TABLE.sql
 		Documents\SQL脚本 for SolrDemo\2-CREATE TRIGGER solr_update_policy.sql = Documents\SQL脚本 for SolrDemo\2-CREATE TRIGGER solr_update_policy.sql
 		Documents\SQL脚本 for SolrDemo\3-INSERT INTO Policy.sql = Documents\SQL脚本 for SolrDemo\3-INSERT INTO Policy.sql
+		Documents\SQL脚本 for SolrDemo\Readme.txt = Documents\SQL脚本 for SolrDemo\Readme.txt
 	EndProjectSection
 EndProject
 Global
